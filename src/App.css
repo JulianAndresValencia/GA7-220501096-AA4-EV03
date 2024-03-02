@@ -1,38 +1,62 @@
+/* Estilos para el contenedor principal de la aplicación */
+
 .App {
-  text-align: center;
+  text-align: center; /* Centra el contenido del contenedor */
 }
 
+/* Estilos para el logo de la aplicación */
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 40vmin; /* Tamaño del logo relativo al tamaño de la ventana del navegador */
+  pointer-events: none; /* Evita que el logo sea interactivo */
 }
 
+/* Estilos para la animación del logo */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear; /* Animación de rotación infinita */
   }
 }
 
+/* Estilos para el encabezado de la aplicación */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #282c34; /* Color de fondo del encabezado */
+  min-height: 100vh; /* Altura mínima del encabezado igual a la altura de la ventana */
+  display: flex; /* Utiliza flexbox para el diseño */
+  flex-direction: column; /* Distribuye los elementos en columnas */
+  align-items: center;/* Centra los elementos horizontalmente */
+  justify-content: center;  /* Centra los elementos verticalmente */
+  font-size: calc(10px + 2vmin); /* Tamaño de fuente escalable */
+  color: white; /* Color de texto del encabezado */
 }
 
+/* Estilos para los enlaces en la aplicación */
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* Color de los enlaces */
 }
 
+/* Definición de la animación de rotación del logo */
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* Rotación inicial */
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg); /* Rotación completa */
   }
+}
+
+/* Estilos para el párrafo en la parte inferior de la página */
+.bottom-paragraph {
+  margin-top: 20px; /* Margen superior */
+  font-size: 16px; /* Tamaño de fuente */
+  text-align: center; /* Alineación del texto */
+  color: #666; /* Color de texto */
+}
+
+/* Estilos para el contenedor del grupo de formulario */
+.form-group {
+  margin-bottom: 800px; /* Margen inferior del grupo de formulario */
+}
+
+body {
+  background-color: #e5ffe5; /* Cambia el color de fondo según tus preferencias */
 }
