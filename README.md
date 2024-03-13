@@ -1,3 +1,6 @@
+//GA7-220501096-AA5-EV01 diseño y desarrollo de servicios web - caso
+//GA7-220501096-AA4-EV03 Componente frontend del proyecto formativo y proyectos de clase (listas de chequeo)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
