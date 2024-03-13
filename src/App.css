@@ -1,5 +1,4 @@
 /* Estilos para el contenedor principal de la aplicación */
-
 .App {
   text-align: center; /* Centra el contenido del contenedor */
 }
@@ -23,8 +22,8 @@
   min-height: 100vh; /* Altura mínima del encabezado igual a la altura de la ventana */
   display: flex; /* Utiliza flexbox para el diseño */
   flex-direction: column; /* Distribuye los elementos en columnas */
-  align-items: center;/* Centra los elementos horizontalmente */
-  justify-content: center;  /* Centra los elementos verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+  justify-content: center; /* Centra los elementos verticalmente */
   font-size: calc(10px + 2vmin); /* Tamaño de fuente escalable */
   color: white; /* Color de texto del encabezado */
 }
@@ -59,4 +58,41 @@
 
 body {
   background-color: #e5ffe5; /* Cambia el color de fondo según tus preferencias */
+}
+
+/* Estilos para el botón de registro */
+.register-button {
+  margin-top: 20px; /* Agrega un margen superior para separar el botón de otros elementos */
+  padding: 10px 20px; /* Agrega relleno interno al botón */
+  font-size: 16px; /* Tamaño de fuente */
+  background-color: #61dafb; /* Color de fondo del botón */
+  color: white; /* Color de texto */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 5px; /* Agrega bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+  transition: background-color 0.3s ease; /* Agrega una transición suave al cambiar el color de fondo */
+}
+
+.register-button:hover {
+  background-color: #5cb8ff; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+}
+
+/* Estilos para el contenedor de notificaciones emergentes */
+.Toastify {
+  z-index: 9999; /* Asegura que el contenedor esté en la parte superior */
+  position: fixed; /* Posición fija para mantenerlo en la pantalla */
+  top: 20px; /* Distancia desde la parte superior */
+  right: 20px; /* Distancia desde la derecha */
+}
+
+/* Estilos para la ventana emergente de registro */
+.register-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

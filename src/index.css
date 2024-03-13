@@ -1,13 +1,15 @@
+/* Estilos globales para el cuerpo del documento */
 body {
-  margin: 0;
+  margin: 0; /* Elimina el margen predeterminado */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    sans-serif; /* Define la fuente para el cuerpo del documento */
+  -webkit-font-smoothing: antialiased; /* Suaviza los bordes de los caracteres en navegadores webkit */
+  -moz-osx-font-smoothing: grayscale; /* Suaviza los bordes de los caracteres en Firefox para macOS */
 }
 
+/* Estilos para el elemento code */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    monospace; /* Define la fuente para el elemento code */
 }
